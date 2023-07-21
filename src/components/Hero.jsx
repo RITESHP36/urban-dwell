@@ -22,6 +22,7 @@ const settings = {
 const Hero = () => {
 	return (
 		<div>
+			
 			<div className="bg-black  pt-10 md:grid md:grid-cols-2 z-[20]">
 				{/* left */}
 				<div className=" py-10 flex flex-col justify-center ">

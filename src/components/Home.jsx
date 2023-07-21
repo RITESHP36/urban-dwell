@@ -6,10 +6,23 @@ import OurValues from "./OurValues";
 import ContactUs from "./ContactUs";
 import GetStarted from "./GetStarted";
 import Footer from "./Footer";
+import { FaArrowCircleUp } from "react-icons/fa";
+import {Link} from "react-scroll"
 
 const Home = () => {
 	return (
 		<div className="">
+			<div className="fixed bottom-3 right-3 z-50">
+				<Link
+						smooth={true}
+						spy={true}
+						activeClass="active"
+						className="text-xl font-bold z-[400] cursor-pointer"
+						to="home"
+					>
+					<FaArrowCircleUp  size={30} className="shadow-sm shadow-black rounded-full bg-white"/>
+					</Link>
+			</div>
 			<div className="fixed top-0 w-full z-50">
 				<NavBar />
 			</div>
@@ -19,6 +32,7 @@ const Home = () => {
 					<Hero />
 				</div>
 			</div>
+			
 			<div id="residencies" className="z-10">
 				{/* residencies */}
 				<Residencies />
@@ -29,18 +43,20 @@ const Home = () => {
 			</div>
 			<div id="contactus" className="">
 				{/* contact us */}
-				<ContactUs/>
+				<ContactUs />
 			</div>
 			<div id="getstarted" className="">
 				{/* get started */}
-				<GetStarted/>
+				<GetStarted />
 			</div>
 			<div className="">
 				{/* Footer */}
-				<Footer/>
+				<Footer />
 			</div>
 		</div>
 	);
 };
 
 export default Home;
+
+
