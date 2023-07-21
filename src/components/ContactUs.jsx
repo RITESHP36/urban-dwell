@@ -5,6 +5,7 @@ import {
 	BiLogoWhatsapp,
 } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
+import FadeInLeft from "../animation/FadeInLeft"
 
 const ContactUs = () => {
 	return (
@@ -114,11 +115,13 @@ const ContactUs = () => {
 				</div>
 				{/* right */}
 				<div className="flex justify-center items-center p-8">
-					<img
-						className="rounded-t-full shadow-neutral-700  object-cover h-[550px]"
-						src="https://real-estate-web.pages.dev/value.png"
-						alt=""
-					/>
+					<FadeInLeft>
+						<img
+							className="rounded-t-full shadow-neutral-700  object-cover h-[550px]"
+							src="https://real-estate-web.pages.dev/value.png"
+							alt=""
+						/>
+					</FadeInLeft>
 				</div>
 			</div>
 		</div>

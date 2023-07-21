@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import data from "../assets/data";
 import { MdLocationOn } from "react-icons/md";
 import CountUp from "react-countup";
+import FadeInUp from "../animation/FadeInUp";
+import FadeInLeft from "../animation/FadeInLeft";
 
 const settings = {
 	arrows: false,
@@ -28,12 +30,14 @@ const Hero = () => {
 							<div key={index} className="z-[20]">
 								<div className="text-white py-5">
 									<div className="w-3/4 mx-auto">
-										<h3 className=" sm:text-5xl text-3xl font-bold">
-											{item.title}
-										</h3>
-										<p className="sm:text-sm text-xs text-neutral-400 py-4">
-											{item.disc}
-										</p>
+										<FadeInUp>
+											<h3 className=" sm:text-5xl text-3xl font-bold">
+												{item.title}
+											</h3>
+											<p className="sm:text-sm text-xs text-neutral-400 py-4">
+												{item.disc}
+											</p>
+										</FadeInUp>
 									</div>
 									<div className="flex  bg-white rounded-md mt-4 gap-x-2 p-2 w-3/4 mx-auto ">
 										<MdLocationOn color="blue" size={30} />
@@ -90,11 +94,13 @@ const Hero = () => {
 				<div className="flex justify-center items-center py-5">
 					{data.heroapi.map((item, index) => (
 						<div key={index} className="px-8">
+							<FadeInLeft>
 							<img
 								className=" object-cover rounded-t-full py-10 flex justify-center "
 								src={item.img}
 								alt=""
 							/>
+							</FadeInLeft>
 						</div>
 					))}
 				</div>
