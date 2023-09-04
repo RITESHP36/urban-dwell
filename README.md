@@ -7,11 +7,11 @@
 <br />
 <div align="center">
    <img src="https://i.imgur.com/hkklJ0N.png" alt="logo"  height="60">
-  <h3 align="center">Real Estate Websitee</h3>
+  <h3 align="center">Real Estate Website</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://urban-dwell.vercel.app/">View Demo</a>
 </div>
 
 
@@ -26,19 +26,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -47,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](https://i.imgur.com/tjQCPU4.png)](https://example.com)
+[![Product Name Screen Shot](https://i.imgur.com/tjQCPU4.png)]
 
 Welcome to UrbanDwell! Our project, hosted at https://urban-dwell.vercel.app/, is your digital gateway to the world of real estate. Discover homes that resonate with your lifestyle, explore vibrant neighborhoods, and make informed decisions on your journey to finding the perfect place to call home. Experience the future of real estate exploration with UrbanDwell today!.
 
